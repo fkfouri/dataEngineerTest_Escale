@@ -89,6 +89,8 @@ def get_epoch_time_limit():
     return (30*60)*1000
 
 
+# ### ClickStream
+# 
 # Função que cria o dataFrame <b>ClickStream</b>, que atende os criterios de sessionamento defindo pelo desafio.
 # 
 # Para calculo do tempo de sessão foi utilizado a função <b>LAG()</b> que tem por objetivo trazer no registro corrente o dado de timestamp do registro anterior.

@@ -7,7 +7,6 @@
 
 # In[1]:
 
-
 try:
     get_ipython().system('pip install boto3=="1.13.1" --quiet')
 except:

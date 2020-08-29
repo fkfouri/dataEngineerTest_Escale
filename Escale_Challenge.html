@@ -13297,7 +13297,7 @@ Quantidade de Arquivos do Dataset 10
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Função que cria o dataFrame <b>ClickStream</b>, que atende os criterios de sessionamento defindo pelo desafio.</p>
+<h3 id="ClickStream">ClickStream<a class="anchor-link" href="#ClickStream">&#182;</a></h3><p>Função que cria o dataFrame <b>ClickStream</b>, que atende os criterios de sessionamento defindo pelo desafio.</p>
 <p>Para calculo do tempo de sessão foi utilizado a função <b>LAG()</b> que tem por objetivo trazer no registro corrente o dado de timestamp do registro anterior.</p>
 <p>O autor assumiu como premissa não declarada para definir uma sessão, que além do tempo limite de 30 minutos desde a última utilização, que uma sessão precisaria considerar o <b>device_family</b> e <b>os_family</b>.</p>
 <p>Ou seja, mesmo que não tenha excedido o tempo limite de 30 minutos, mas se for caracterizado que houve uma mudança de device_family ou os_family, trata-se de uma sessão nova.</p>
